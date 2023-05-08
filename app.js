@@ -12,7 +12,7 @@ const server = express()
 //database
 mongoose.connect(db_url);
 
-//middleware
+//middleware section
 
 server.use(cors());
 server.use(bodyParser.json());
